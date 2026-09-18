@@ -89,7 +89,7 @@ func createTasks(description string) error {
 	newTask := Task{ // cria uma tarefa nova
 		ID:          newID,
 		Description: description,
-		Stats:       "todo",
+		Stats:       "to-do",
 		CreatedAt:   dataNow,
 		UpdateAt:    dataNow,
 	}
